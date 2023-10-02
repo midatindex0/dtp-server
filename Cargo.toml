@@ -4,7 +4,13 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-actix-web = "4.3.1"
-shuttle-actix-web = "0.27.0"
+actix-web = "4.4.0"
+actix-ws = "0.2.5"
+futures = "0.3.28"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
 shuttle-runtime = "0.27.0"
 tokio = "1.26.0"
+tracing = "0.1.37"
+actix-web-actors = "4.2.0"
+actix = "0.13.1"
